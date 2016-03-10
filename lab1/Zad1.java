@@ -1,6 +1,6 @@
 package lab1;
 
-public class Zad1 {
+public class Trigonometrics {
 
 	double sinus(double x, int len ){
 		double even =0;
@@ -49,7 +49,7 @@ public class Zad1 {
 		double x= 4;
 		int precision = 100;
 		
-		Zad1 z = new Zad1();
+		Trigonometrics z = new Trigonometrics();
 
 		System.out.println(" My x- sin(x)=   " +z.f1(x,precision));
 		System.out.println(" x- Math.sin(x)= " +(x-Math.sin(x)));

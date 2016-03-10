@@ -7,7 +7,7 @@ import com.panayotis.gnuplot.style.NamedPlotColor;
 import com.panayotis.gnuplot.style.PlotStyle;
 import com.panayotis.gnuplot.style.Style;
 
-public class Zad3 {
+public class LogicMap {
 
 	static int N =500;
 	
@@ -125,18 +125,18 @@ public class Zad3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Zad3 z = new Zad3();
+		LogicMap z = new LogicMap();
 		
-		//Zadanie 3 a) :
+		//Exercise 3 a) :
 		for (double x0=0.1; x0<=1.0; x0+=0.1)
 			z.plotting(x0);
 		
-		//Zadanie 3 b) :
+		//Exercise 3 b) :
 		//for (double x0=0.1; x0<=1.0; x0+=0.1)
 		//	z.compare(x0);
 
 
-		//Zadanie 3 c) :		
+		//Exercise 3 c) :		
 	//	for (float x0=(float)0.1; x0< 1; x0+=0.1)
 	//	System.out.println("Iterations : " +z.iterations(x0));
 	

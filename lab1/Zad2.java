@@ -1,6 +1,6 @@
 package lab1;
 
-public class Zad2 {
+public class PartialSums {
 
 	float dzeta(float s,int n, boolean back){
 
@@ -73,7 +73,7 @@ public class Zad2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Zad2 z = new Zad2();
+		PartialSums z = new PartialSums();
 		
 		System.out.println("single:");
 		System.out.println("w przód:");
