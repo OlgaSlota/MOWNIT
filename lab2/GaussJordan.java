@@ -19,11 +19,11 @@ public class GaussJordan {
 				if(row==col )
 					row++;
 				
-				this.calculateRow(row, col, A, b , N);  // A[row] -=( A[row][col]/A[col][col]) * A[col]
+				this.calculateRow(row, col, A, b , N); 
 			}
 		}
 		for ( int i=0 ; i< N ; i++){
-			x[i] = b[i]/A[ind[i]][ind[i]];
+			x[i] = b[ind[i]]/A[ind[i]][ind[i]];
 		}
 		
 		return x;
@@ -35,7 +35,6 @@ public class GaussJordan {
 			A[row][i] -= multi * A[col][i];	
 			}
 		b[row] -= multi * b[col];
-		
 	}
 	
 	void swap(double x , double y){
@@ -72,46 +71,28 @@ public class GaussJordan {
 		this.swap(b[start], b[x]);
 		
 	}
-	public static void main( String [] args){
+	
+	void showResults(int n, double A [][] , double b[] ){
 		
-		long begin =System.nanoTime();
-		
-		int n = 600;
-		Random r = new Random();
 		GaussJordan z = new GaussJordan();	
-			double A [][]= new double[n][n];
-			double b[] = new double[n];
-			
-			for (int i=0; i< n ; i++)
-				for(int j =0 ; j< n ; j++){
-					A[i][j] = r.nextDouble();
-					b[j]= r.nextDouble();
-						}
-	/*		
-			A[0][0]= 2.;
-			A[0][1] = 4.;
-			A[1][0] = 3.;
-			A[1][1] = -2.;
-			
-			b[0] = 22;
-			b[1] = 9;
-	*/		
+				
 			double res[] = new double[n];
 			res = z.gaussJordan(A, b, n);
+			
+		//	System.out.println("MATRIX AFTER CALCULATION:\n");
+		//	for(int i =0 ; i<n ; i++)
+			//	for(int j =0 ; j<n ; j++)
+			//		System.out.printf("%.8f ",A[i][j]);
+			//	System.out.println();
+			
+			System.out.println("Solution:");
 			for(int i =0 ; i<n ; i++){
-				System.out.print(res[i]+"   ");	
-			}
-			System.out.println("\n\nMATRIX AFTER CALCULATION:\n");
-			
-			
-			for(int i =0 ; i<n ; i++){
-				for(int j =0 ; j<n ; j++)
-					System.out.printf("%.8f ",A[i][j]);
-				System.out.println();
+				System.out.print(res[i]+" ");	
 			}
 			
-			System.out.println("\nTotal time : " + (System.nanoTime()-begin) + " ns");
+			System.out.println("\n");
+	}
 	}
 	
-	}
+	
 
