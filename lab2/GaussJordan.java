@@ -1,5 +1,7 @@
 package lab2;
 
+//this class funcionality is shown and compared to org.apache.commons.math3.linear solution in LibSolution.java
+
 import java.util.Random;
 
 public class GaussJordan {
@@ -79,6 +81,7 @@ public class GaussJordan {
 			double res[] = new double[n];
 			res = z.gaussJordan(A, b, n);
 			
+		// for smaller sizes of A matrix it's worth to uncomment to see the matrix	
 		//	System.out.println("MATRIX AFTER CALCULATION:\n");
 		//	for(int i =0 ; i<n ; i++)
 			//	for(int j =0 ; j<n ; j++)
