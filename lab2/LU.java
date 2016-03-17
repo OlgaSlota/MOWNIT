@@ -1,5 +1,7 @@
 package lab2;
 
+// LU Decomposition based on Gaussian Method with usage of partial pivoting 
+
 import java.util.Random;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
