@@ -1,5 +1,7 @@
 package lab2;
 
+//Comparison of my GaussHordan.java implenetation to org.apache.commons.math3.linear implementation
+
 import java.util.Random;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
