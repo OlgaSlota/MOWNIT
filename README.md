@@ -9,4 +9,4 @@ Numerical Analysis :
 - lab2 :
 - - Gaussian-Jordan ellimination for solving linear equotatiions with complete pivoting compared to library solution in LibSolution.java
 - - LU factorization with partial pivoting
-- - Electric cuircuit analysis based on Kirchhoff's Rules. Given a graph representing an electrical cuircuit, solving a linear equation set for current on each branch in a cuircuit (represented as an edge in a graph).
+- - Electric cuircuit analysis based on Kirchhoff's Rules. Given a graph representing an electrical cuircuit, solving a linear equation set for current on each branch in a cuircuit (represented as an edge in a graph). Implemented mainly in Java but using Python ( with matplotlib and networkx ) for visualization of the resolved graph representing cuircuit with color map to show particular current values.
