@@ -2,8 +2,6 @@ package lab2;
 
 //this class funcionality is shown and compared to org.apache.commons.math3.linear solution in LibSolution.java
 
-import java.util.Random;
-
 public class GaussJordan {
 
 	double[] gaussJordan(double A [][], double b[], int N){
