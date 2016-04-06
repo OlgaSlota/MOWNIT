@@ -57,8 +57,9 @@ public class Image extends Applet implements Runnable {
 	public int unitEnergy(boolean[][]img, int a, int b, int c, int d ){
 
 		int e=0;
-		if((img[a][b]&&img[c][d]) && a!=c)
+		if((img[a][b]&&img[c][d]) && (a!=c || b!=d))
 			e =-20;
+		else e= 10;
 		return e;
 	}
 	
@@ -77,7 +78,7 @@ public class Image extends Applet implements Runnable {
 						l=0;
 					while(l<j+5 && l<n){
 						int e= 0;
-						if (diagonalNeighbours(i,j,k,l))
+						if (eightNeighbours(i,j,k,l))
 							 e= unitEnergy(img,i,j,k,l);
 						sum+= e;
 						l++;
@@ -104,7 +105,7 @@ public class Image extends Applet implements Runnable {
 				l=0;
 			while(l<y1+5 && l<n){
 				int e1 =0, e= 0;
-				if (diagonalNeighbours(x1,y1,k,l)){
+				if (eightNeighbours(x1,y1,k,l)){
 					 e= unitEnergy(newImg,x1,y1,k,l);
 					 e1 = unitEnergy(currentImg,x1,y1,k,l);
 				}
@@ -124,7 +125,7 @@ public class Image extends Applet implements Runnable {
 					l=0;
 				while(l<y2+5 && l<n){
 					double e1 =0, e= 0;
-					if (diagonalNeighbours(x2,y2,k,l)){
+					if (eightNeighbours(x2,y2,k,l)){
 						 e= unitEnergy(newImg,x2,y2,k,l);
 						 e1 = unitEnergy(currentImg,x2,y2,k,l);
 					}
@@ -183,7 +184,7 @@ public class Image extends Applet implements Runnable {
 	    int counter=0;
 	    temp=T0;
 	    int deltaEnergy = 0;
-	    double coolingRate = 0.99999;
+	    double coolingRate = 0.9999;
 	    double absoluteTemperature = 0.01;
 
 	    int energy = totalEnergy(currentImg);
@@ -229,9 +230,9 @@ public class Image extends Applet implements Runnable {
 	
 	@Override
 	public void run() {
-			n = 200 ;
-			T0 = 50000;
-			ro = 0.3;
+			n = 300 ;
+			T0 = 700;
+			ro = 0.1;
 			currentImg = createImage();
 			initialImg= new boolean[n][n];	
 			 for (int i = 0; i < n; i++)
@@ -252,18 +253,11 @@ public class Image extends Applet implements Runnable {
 		}
 	
 	 public void paint(Graphics g) {
-	        int rad=1,shift=n+50;
+	        int rad=1,shift=50;
 	        g.setFont(new Font("TimesRoman", Font.PLAIN, 20)); 
 
 	       if(done){
-	      /*  for(int i=0;i<n;i++)
-	        	for(int j=0 ; j<n ; j++){
-	        		if(initialImg[i][j])
-	        			g.fillOval((i+25),(j+25),rad,rad);
-	        		
-	        	}
-	        g.drawString("Before ",20,20);
-	       */ 
+	     
 	        for(int i=0;i<n;i++)
 	        	for(int j=0 ; j<n ; j++){
 	        		if(currentImg[i][j])
@@ -272,7 +266,7 @@ public class Image extends Applet implements Runnable {
 	      g.drawString("After ",shift-10,shift);
 	       }
 	       else 
-	    	   g.drawString("Computation in progress..",shift-10,shift);
+	    	   g.drawString("Computation in progress..",shift+100,shift+100);
 	      g.drawString("Total energy= "+total,100,850);
 	      g.drawString("initial temp = "+T0+" current temp = " + temp,100,880);
 	
