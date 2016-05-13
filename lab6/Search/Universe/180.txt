@@ -1,0 +1,38 @@
+User:David Kernow - Wikipedia, the free encyclopedia User:David Kernow From Wikipedia, the free encyclopedia Jump to: navigation, search David Kernow is taking a wikibreak but continues to drop by very very occasionally. /Folks' generosity · /Sandbox · /Test page · /Test template · /To do · /No longer on watchlist · /Archive · Userspace Reference Image syntax · Image use policy · Magic words · {{Ctlf}} · Fix bunched-up [edit]s · Hyphens and adverbs · Special characters · Criteria for speedy deletion <small> = 80% = 0.8em <big> = 20% = 1.2em middot = Alt + 0183 bullet = Alt + 0149 para = Alt + 0182 [ = &#91;    ] = &#93; colon = &#58; { = &#123;    } = &125; micro = Alt + 0181 Templates /Links · Category:Wikipedia templates · Navigational · ParserFunctions · Indefinitely protected · Infoboxes · Language icons · NavFrame (See also #Nav below) · {{archivebox}} → {{Archive box}} {{Navigational templates}} (/simpler version) · /{{Disambiguation and redirection templates}} /doc page header/footer  
+<includeonly>{{template doc page transcluded}}</includeonly>
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+
+
+{{/doc}}
+<!--Please add any interwiki links etc on the /doc page, not here - thanks!-->
+</noinclude>
+ Requests for bot work · for comment · for expansion Search Prefix index Move[edit] Article  On talk page:  {{subst:WP:RMtalk|CurrentTitle|ProposedTitle|Rationale}} On WP:RM:  {{subst:WP:RM|CurrentTitle|ProposedTitle|Rationale}} For change in upper/lowercase only, use {{capitalmove}} on talk page. If archive background forgotten on talk page, use "{{moved}} {{polltop}} outcome" immediately below "Requested move" heading. Category  On category page:  {{subst:cfr|newname (|CfD heading) }} On WP:CfD:  {{subst:cfr2|oldname|newname|text=reason}} ~~~~ For empty categories, use {{db-catempty}}. For categories recreated stubbornly, use {{deletedcategory}}. {{categoryredirect}} and {{deletedcategory}} categories patrolled by RobotG. Formatting[edit] See also: Wikipedia:Useful styles and Wikipedia:Catalogue of CSS classes Styles, classes, divs[edit] Tables class="wikitable sortable"; see also {{commas}} class= mergedtoprow, mergedrow, mergedbottomrow Example use of border[-TRBL]-style:hidden to remove cell: Yerevan#Geography and climate Columns style= "(width=X%;) -moz-column-count:N; column-count:N;"> where N = 2, 3, ... margin style="...margin:top right bottom left;..." independent float 
+<div style="position:relative;">
+...
+<div style="position:absolute; top:0px; [right/left]:0px;">...''independent item''...</div>
+...
+</div>
+ Example {{Navigation}} posing as {{Navbox generic}}: {{Former German colonies}} Nav[edit] See also: Wikipedia:NavFrame NavFrame  
+<center>
+<div class="NavFrame"   [style="clear:both; ...;"]  >
+<div class="NavHead"    [style="background: ...;"]  >
+<div style="float:left; margin-left:[0.25em/0.5em];">
+{{Tnavbar|[TemplateName]|mini=1}}</div>'''[Title]'''</div>
+<div class="NavContent" [style="... font-size: ...;"] >
+...
+</div></div>
+</center>
+ Left-aligned text Centered inline text Lorem ipsum dolor sit amet · The quick brown fox jumps over the lazy dog · asdf Backgrounds, colors[edit] Further information: Web colors § X11 color names See also: User:Trödel/Color chart (8-bit) beige seashell oldlace cornsilk lightyellow lightgoldenrodyellow lemonchiffon blanchedalmond papayawhip moccasin bisque peachpuff navajowhite wheat palegoldenrod khaki snow floralwhite ivory antiquewhite linen lavenderblush mistyrose mintcream honeydew palegreen lightgreen aliceblue azure #eef lavender #ddf #ccf paleturquoise powderblue lightblue skyblue lightskyblue lightsteelblue ghostwhite whitesmoke #f2f2f2 (wikitable) #eee #e6e6e6 gainsboro lightgrey Footnotes (WP:FN)[edit] For each footnote: <ref>...</ref> within text. To set up footnote for more than one use: <ref name="Name">...</ref>, then <ref name="Name"/> thereafter. To list footnotes: {{reflist}} or <div class="references-small"><references/></div> Option to hide material[edit] {{hidden begin|header=[Name indicating what's hidden]...}} (Example: {{hidden begin|title=''Name''|titlealign=left|bodyalign=left|titlebackground=#ffffff|bodybackground=#ffffff}} ) ......Material to be hidden...... {{hidden end}} Other links[edit] Categories  Uncategorized · Needed · Stubs · Categories (Naming conventions (categories)) Community   Admins' noticeboard · Village pump · Current surveys · Reference desk · Signpost Tools (Navigation popups · Picture popups) · List of reference tables · Mediation Cabal · Third opinion Translators · Translators available Technical folk: User:Mzajac · User:AzaToth · User:Netscott · User:Rick Block · User:Hiding · User:R. Koot · User:Templationist · User:Dispenser · ... Deletion   Deletion log · Speedy deletions (Criteria) Help   Basic how-to · Manual of Style · When to link · Footnotes Main Page   Today's featured article · {{In the news}} Projects   Disambiguation (Manual of Style) · Deadend pages · Typo · Composers Tasks   NPOV disputes · Copyedit · Wikify · Merge · Cleanup Tools   AutoWikiBrowser Images   commons:Image:United Nations geographical subregions.png Shortcut prefixes[edit] 
+b:         Wikibooks
+commons:   Commons
+m:         Wikimedia
+n:         Wikinews
+q:         Wikiquote
+s:         Wikisource
+           Wikispecies
+v:         Wikiversity
+w:         Wikipedia
+wikt:      Wiktionary
+ Settings[edit] Raw signature  [[User:David Kernow|David Kernow]]&nbsp;<span style="font-size:90%;">[[User talk:David Kernow|(talk)]]</span> /monobook.css /monobook.js alter footnote height Navigation popups, sorttable Retrieved from "https://en.wikipedia.org/w/index.php?title=User:David_Kernow&oldid=524635846" Navigation menu Personal tools Not logged in Talk Contributions Create account Log in Namespaces User page Talk Variants Views Read Edit View history More Search Navigation Main page Contents Featured content Current events Random article Donate to Wikipedia Wikipedia store Interaction Help About Wikipedia Community portal Recent changes Contact page Tools What links here Related changes User contributions Logs Upload file Special pages Permanent link Page information Print/export Create a book Download as PDF Printable version Languages This page was last modified on 24 November 2012, at 12:06. Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization. Privacy policy About Wikipedia Disclaimers Contact Wikipedia Developers Cookie statement Mobile view
