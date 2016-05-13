@@ -27,7 +27,8 @@ Simulated annealing algorithm in solving several practical problems :
 
 
 lab5 :
-SVD - transformation of a sphere to an elipsoid with visalizations
+SVD 
+- transformation of a sphere to an elipsoid with visalizations
 
 
 lab6 :
