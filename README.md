@@ -27,7 +27,7 @@ Simulated annealing algorithm in solving several practical problems :
 
 
 lab5 :
-SVD 
+SVD (Python implementation )
 - transformation of a sphere to an elipsoid with visalizations
 
 
@@ -42,7 +42,7 @@ Search
 
 
 lab8 :
-Page Rank 
+Page Rank  (Python implementation )
 - Page Rank calculation of large network graph ( example with one from Stanford Large Network Database)
 - Solution based on eigenvectors and eigenvalues calculation
 
