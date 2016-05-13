@@ -26,3 +26,22 @@ Simulated annealing algorithm in solving several practical problems :
 - Sudoku - solving Sudoku puzzle with simulated annealing ( minimization of digits repetitions in each row, column, 3x3 squares).
 
 
+lab5 :
+SVD - transformation of a sphere to an elipsoid with visalizations
+
+
+lab6 :
+Search 
+- Web Crawler downloading some part of en.wikipedia.org/wiki (over 1000 txt files)
+- Building a set of words appearing in all files (dictionary)
+- Building bag-of-words vectors for every single file ( word occurences in the file)
+- Building a term-by-document matrix of frequencies of each word from dictionary in each file 
+- Calculating a corelation of the query vector to each file's bag-of-words ( implemented in python)
+- Returning best fitting files to the query provided by user as argument 
+
+
+lab8 :
+Page Rank 
+- Page Rank calculation of large network graph ( example with one from Stanford Large Network Database)
+- Solution based on eigenvectors and eigenvalues calculation
+
