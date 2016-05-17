@@ -46,3 +46,5 @@ Page Rank  (Python implementation )
 - Page Rank calculation of large network graph ( example with one from Stanford Large Network Database)
 - Solution based on eigenvectors and eigenvalues calculation
 
+lab9 & lab10 :
+DFT, FFT ( Fourier Transform application )
