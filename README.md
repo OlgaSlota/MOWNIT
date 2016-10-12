@@ -1,5 +1,4 @@
-# MOWNIT
-Numerical Analysis :
+# Numerical Analysis :
 
 
 lab1 : 
